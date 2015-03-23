@@ -1,0 +1,35 @@
+<html>
+<head>
+	<style>
+		.gmwindow-tips-body{position:absolute;padding:10px 20px;color:#333;border-radius:4px;}
+		.gmwindow-tips-left-body{background:#ffffff;border:1px solid #c5c5c5;}
+		.gmwindow-tips-right-body{border:1px solid #86d1bf;background:#e7f4f2;}
+		.gmwindow-tips,em{display:block;border-style:solid;border-color:transparent;width:0;height:0;border-width:8px;position:absolute}
+		.gmwindow-tips-left{border-left-width:0;border-right-color:#c5c5c5;top:8px;left:-8px}
+		.gmwindow-tips-left em{border-left-width:0;border-right-color:#ffffff;top:-8px;left:1px}
+		.gmwindow-tips-right{border-right-width:0;border-left-color:#86d1bf;top:8px;right:-8px}
+		.gmwindow-tips-right em{border-right-width:0;border-left-color:#e7f4f2;top:-8px;right:1px}
+		.gmwindow-tips-content{max-width: 150px;display:block;min-height: 16px;}
+	</style>
+</head>
+<body>
+	<div class='gmwindow-tips-body gmwindow-tips-left-body'  style="top:20px;left:30px;">
+		<span class='gmwindow-tips gmwindow-tips-left' >
+			<em></em>
+		</span>
+		<span class='gmwindow-tips-content'>
+		
+		</span>
+	</div>
+	<div class='gmwindow-tips-body gmwindow-tips-right-body' style="top:100px;left:300px;">
+		<span class='gmwindow-tips gmwindow-tips-right' >
+			<em></em>
+		</span>
+		<span class='gmwindow-tips-content'>
+			有内容
+		</span>
+	</div>
+
+	<div style="border:10px solid red;position:absolute"></div>
+</body>
+</html>
